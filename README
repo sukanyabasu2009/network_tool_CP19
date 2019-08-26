@@ -31,3 +31,8 @@ Run the tool as
 ../bin/network_tool -b input
 
 
+Prerequisites:
+
+z3 version 4.7.1 or above
+dot
+gnuplot
