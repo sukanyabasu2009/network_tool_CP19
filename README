@@ -1,0 +1,33 @@
+Download the zipped archive from git
+
+Set the variable SS as
+
+export SS=<path-to-ExpressionManager_Based_Implementation-dir>
+
+
+In the network_tool folder, run the following commands
+
+mkdir build
+mkdir bin
+make
+
+
+
+An executable of the name network_tool should be created in the bin folder
+
+cd example
+
+In the input file, provide paths to the common_files and the working directory
+
+let $COMMON_FILES_DIR <path-to-common_files-dir>
+let $WORK_DIR <path-to-curr-dir>
+
+Make necessary changes in the file named input
+
+
+
+Run the tool as
+
+../bin/network_tool -b input
+
+
